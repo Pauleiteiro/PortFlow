@@ -18,11 +18,22 @@ function App() {
       <main className="main">
         <section className="hero">
           <div className="container">
-            <h1 className="hero-title">Bem-vindo ao PortFlow</h1>
-            <p className="hero-subtitle">
-              A tua plataforma para criar e gerir portfolios profissionais
-            </p>
-            <button className="cta-button">Começar Agora</button>
+            <div className="hero-content">
+              <div className="profile-section">
+                <img 
+                  src="/profile/Me.jpeg" 
+                  alt="Profile Picture" 
+                  className="profile-picture"
+                />
+              </div>
+              <div className="hero-text">
+                <h1 className="hero-title">Bem-vindo ao PortFlow</h1>
+                <p className="hero-subtitle">
+                  A tua plataforma para criar e gerir portfolios profissionais
+                </p>
+                <button className="cta-button">Começar Agora</button>
+              </div>
+            </div>
           </div>
         </section>
 
